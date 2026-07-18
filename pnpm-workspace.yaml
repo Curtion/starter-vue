@@ -1,2 +1,12 @@
+overrides:
+  vite: npm:@voidzero-dev/vite-plus-core@latest
+  vitest: npm:@voidzero-dev/vite-plus-test@latest
+  '@voidzero-dev/vite-plus-core': 0.2.5
+
+peerDependencyRules:
+  allowAny:
+    - vite
+    - vitest
+
 allowBuilds:
   '@parcel/watcher': true
